@@ -1,0 +1,61 @@
+body {
+  font-family: "europa", Arial, sans-serif;
+  font-size: 1rem;
+  padding: 2rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 0.4rem;
+}
+
+body > header {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+body > header nav {
+  margin-left: auto;
+}
+
+.brand h1 {
+  color: #00A1CB;
+  font-size: 2.25rem;
+  margin: 0;
+  text-shadow: 0.1rem 0.2rem 0rem #3273DC;
+}
+
+.title {
+  display: flex;
+}
+
+header {
+  padding-bottom: 2.5rem;
+}
+
+.strikethrough {
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+
+section h1 {
+  color: #616161;
+}
+
+section h2 {
+  font-size: 1.2em;
+}
+
+footer {
+  margin: 2rem 0 1rem;
+  text-align: right;
+}
